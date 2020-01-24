@@ -28,7 +28,7 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mapAPI=googleMap;
-        LatLng jharkhand=new LatLng(22.746280, 86.256574);
+        LatLng jharkhand=new LatLng23.331164, 85.298655);
         mapAPI.addMarker(new MarkerOptions().position(jharkhand).title("i'm here"));
         mapAPI.moveCamera(CameraUpdateFactory.newLatLng(jharkhand));
 
